@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Vue course",
+      "price": 9.99,
+      "description": "0 to hero Vue course",
+      "status": "pending"
+    },
+    {
+      "id": "2",
+      "title": "Go course",
+      "price": 9.99,
+      "description": "0 to hero Go course",
+      "status": "pending"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "title": "Vue course",
+      "price": 9.99,
+      "description": "0 to hero Vue course",
+      "status": "confirmed"
+    },
+    {
+      "id": "2",
+      "title": "Go course",
+      "price": 9.99,
+      "description": "0 to hero Go course",
+      "status": "confirmed"
+    }
+  ]
+}
