@@ -41,7 +41,7 @@
           <option>UK</option>
         </select>
       </div>
-      <button @click="save" type="submit" class="btn-primary">Save</button>
+      <button type="submit" class="btn-primary">Save</button>
     </form>
   </div>
 </template>
@@ -53,6 +53,6 @@ import { useToastNotifications } from '@/composables/useToastNotifications'
 const { addToastNotifications } = useToastNotifications()
 
 const save = () => {
-  addToastNotifications('Notification was saved')
+  addToastNotifications('General Settings Saved')
 }
 </script>

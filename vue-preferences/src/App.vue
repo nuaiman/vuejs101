@@ -25,7 +25,7 @@ import GeneralSettings from '@/components/GeneralSettings.vue'
 import NotificationsSettings from '@/components/NotificationsSettings.vue'
 import PrivacySettings from '@/components/PrivacySettings.vue'
 import FadeTransition from '@/components/FadeTransition.vue'
-import ToastNotifications from '@/components/ToastNotifications.vue'
+import ToastNotifications from './components/ToastNotifications.vue'
 
 const currentTab = ref<TabKey>('General')
 

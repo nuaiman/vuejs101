@@ -22,6 +22,5 @@
 
 <script setup lang="ts">
 import { useSettings } from '@/composables/useSettings'
-
 const { privacy } = useSettings()
 </script>

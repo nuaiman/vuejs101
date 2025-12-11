@@ -18,6 +18,5 @@
 
 <script setup lang="ts">
 import { useSettings } from '@/composables/useSettings'
-
 const { notifications } = useSettings()
 </script>

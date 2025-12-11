@@ -37,7 +37,7 @@ select {
 }
 
 .notification-item {
-  @apply mb-4  pointer-events-auto relative flex w-full items-center
+  @apply mb-4 pointer-events-auto relative flex w-full items-center
   justify-between space-x-2 overflow-hidden rounded-md p-4 pr-6 shadow-lg
   transition-all border bg-white text-black;
 }

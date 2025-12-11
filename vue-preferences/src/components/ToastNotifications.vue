@@ -15,6 +15,5 @@
 
 <script setup lang="ts">
 import { useToastNotifications } from '@/composables/useToastNotifications'
-
 const { notifications, removeToastNotification } = useToastNotifications()
 </script>
